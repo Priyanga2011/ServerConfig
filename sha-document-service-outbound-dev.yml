@@ -1,7 +1,7 @@
 couchdb:
   url: https://smarthealth-subhi-test.lg-apps.com/
   username: subhi
-  password: MGMyYTZkZThlYTc1OWUwMzhhZmNiYzA4
+  password: ODY2ZTllYmY5NDE4MzliMjQzY2E5NDBl
   database: medic
 
 httpConnPool:
