@@ -1,0 +1,24 @@
+couchdb:
+  url: https://sbr-uat-couch.lg-apps.com/
+  username: "{cipher}9921ca5ba72b460a2594f780447ff0d2ce4609fde581136852bd6984fe5a7480"
+  password: "{cipher}cfbffc8e54fe5f1c9af4136a6888d41a8e9c725476a16bf4177ac60c0dad0c1d5de9d4c624cdbf6a27530b119e3299294e09838ef41062c176a541d4172b5322"
+  database: "{cipher}b3873de20d43d5dcdbf72e194907ffefaf8f020ac6a2c5329053e4230127f60e"
+
+httpConnPool:
+  maxTotal: 20
+  defaultMaxPerRoute: 20
+  maxPerRoutes:
+      scheme: https
+      host: sha-uat.lg-apps.com
+      port: 443
+      maxPerRoute: 20
+
+docserviceoutbound:
+  medicdb: "{cipher}679e79c790cbd11ddae37d2f82866d2f4eaa77b56c0a3cf69dc3b34a54a654a8"
+  medicuserdb: "{cipher}2ff955124b45912126e812c4876ba77b08bf8519bd5b33cd97d8a0829fa1d997"
+  changes:
+    heartbeat: 10000
+    timeout: 600000
+    style: all_docs
+    limit: 10
+    since: 0
