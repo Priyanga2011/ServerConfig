@@ -1,0 +1,35 @@
+server:
+  port: 8080
+  connection-timeout: 900000
+  compression:
+    enabled: true
+  servlet:
+    context-path: /document-service-down
+  tomcat:
+    accept-count: 1000
+    max-connections: 10000
+    max-threads: 300
+    min-spare-threads: 200
+    max-swallow-size: 4MB
+    max-http-post-size: 2MB
+
+management:
+  endpoint:
+    health:
+      enabled: true
+    metrics:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    org.springboot: DEBUG
+    com.lg: DEBUG
+    #org.apache: DEBUG
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} [%thread] [%t] %-5level %logger{36}-%L - %msg%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss} [%thread] [%t] %-5level %logger{36}-%L - %msg%n'
+  file: ${java.io.tmpdir}/document-service-outbound.log
