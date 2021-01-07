@@ -1,2 +1,2 @@
 couchdb:
-  url: http://localhost:5984/
+  url: https://sbr-uat-couch.lg-apps.com/
