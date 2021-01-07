@@ -1,5 +1,5 @@
 couchdb:
-  url: https://sbr-uat-couch.lg-apps.com/
-  username: subhi
-  password: MGMyYTZkZThlYTc1OWUwMzhhZmNiYzA4
+  url: http://localhost:5984
+  username: admin
+  password: admin
   database: medic
