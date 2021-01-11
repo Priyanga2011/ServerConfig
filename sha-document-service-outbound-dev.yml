@@ -18,7 +18,7 @@ docserviceoutbound:
   medicuserdb: medic-user-
   changes:
     heartbeat: 10000
-    timeout: 600000
+    timeout: 100000
     style: all_docs
-    limit: 10
+    limit: 200
     since: 0
