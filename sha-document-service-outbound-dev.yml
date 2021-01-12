@@ -3,6 +3,15 @@ couchdb:
   username: subhi
   password: C7KrKxFfu3uUy2Kw
   database: medic
+  medicdb: medic
+  medicuserdb: 
+    prefix: medic-user-
+  changes:
+    heartbeat: 10000
+    timeout: 100000
+    style: all_docs
+    limit: 200
+    since: 0
 
 httpConnPool:
   maxTotal: 20
@@ -12,13 +21,3 @@ httpConnPool:
       host: sha-uat.lg-apps.com
       port: 443
       maxPerRoute: 20
-
-docserviceoutbound:
-  medicdb: medic
-  medicuserdb: medic-user-
-  changes:
-    heartbeat: 10000
-    timeout: 100000
-    style: all_docs
-    limit: 200
-    since: 0
