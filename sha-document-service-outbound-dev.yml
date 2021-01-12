@@ -10,7 +10,7 @@ couchdb:
     heartbeat: 10000
     timeout: 100000
     style: all_docs
-    limit: 200
+    limit: 150
     since: 0
 
 httpConnPool:
