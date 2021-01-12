@@ -1,7 +1,7 @@
 couchdb:
-  url: https://sbr-uat-couch.lg-apps.com/
+  url: https://smarthealth-subhi.lg-apps.com/
   username: subhi
-  password: MGMyYTZkZThlYTc1OWUwMzhhZmNiYzA4
+  password: C7KrKxFfu3uUy2Kw
   database: medic
   medicdb: medic
   medicuserdb: 
