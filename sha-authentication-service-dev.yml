@@ -7,4 +7,4 @@ couchdb:
   userPrefix: org.couchdb.user
   
 landingPage:
-  baseUrl: https://sha-uat.lg-apps.com/
+  baseUrl: https://smarthealth-subhi-test.lg-apps.com/
